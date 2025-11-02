@@ -1,0 +1,112 @@
+{
+  "model_name": "Gradient Boosting",
+  "accuracy": 0.7368421052631579,
+  "f1_weighted": 0.6962032273666623,
+  "f1_macro": 0.628724589250905,
+  "precision": 0.6919647409619142,
+  "recall": 0.7368421052631579,
+  "cv_mean": 0.6534795770241439,
+  "cv_std": 0.025560611191719398,
+  "confusion_matrix": [
+    [
+      24,
+      4,
+      2
+    ],
+    [
+      10,
+      5,
+      12
+    ],
+    [
+      0,
+      2,
+      55
+    ]
+  ],
+  "feature_importance": [
+    {
+      "feature": "mean concave points",
+      "importance": 0.21636470197808783
+    },
+    {
+      "feature": "worst concave points",
+      "importance": 0.14157862232909907
+    },
+    {
+      "feature": "worst area",
+      "importance": 0.0751072041741841
+    },
+    {
+      "feature": "worst radius",
+      "importance": 0.039317057126340205
+    },
+    {
+      "feature": "area error",
+      "importance": 0.03646907630573547
+    },
+    {
+      "feature": "worst concavity",
+      "importance": 0.03520844169423501
+    },
+    {
+      "feature": "worst perimeter",
+      "importance": 0.034149562460682126
+    },
+    {
+      "feature": "worst texture",
+      "importance": 0.030150582692354995
+    },
+    {
+      "feature": "worst compactness",
+      "importance": 0.028665648860621847
+    },
+    {
+      "feature": "perimeter error",
+      "importance": 0.026044978470924927
+    },
+    {
+      "feature": "symmetry error",
+      "importance": 0.02449985564783978
+    },
+    {
+      "feature": "fractal dimension error",
+      "importance": 0.024336712154236457
+    },
+    {
+      "feature": "mean texture",
+      "importance": 0.024334233975972123
+    },
+    {
+      "feature": "mean concavity",
+      "importance": 0.02421108471958801
+    },
+    {
+      "feature": "worst fractal dimension",
+      "importance": 0.02399037823750171
+    },
+    {
+      "feature": "smoothness error",
+      "importance": 0.022875090952839582
+    },
+    {
+      "feature": "concavity error",
+      "importance": 0.021511223408001445
+    },
+    {
+      "feature": "concave points error",
+      "importance": 0.018729289293732975
+    },
+    {
+      "feature": "worst smoothness",
+      "importance": 0.01856665391023389
+    },
+    {
+      "feature": "mean smoothness",
+      "importance": 0.018150608070139806
+    }
+  ],
+  "training_samples": 455,
+  "test_samples": 114,
+  "timestamp": "2025-11-02 16:58:29"
+}
